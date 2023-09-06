@@ -1,0 +1,79 @@
+.ntitle{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    height:40px;
+    color:#337AB7;
+    max-width: 1280px;
+    margin:0 auto;
+ 
+   
+
+    
+}
+
+.setings a{
+    
+    margin-right:10px;
+}
+ 
+.icons{
+    color:#337AB7;
+    font-size: 22px;
+    border:1px rgb(135, 135, 135) solid;
+    border-radius: 5px;
+    padding:1px;
+    box-shadow: 0 1 1 2 rgb(66, 62, 62);
+
+}
+
+.icons:hover{
+    border:1px rgb(242, 242, 242) solid;
+    font-size: 22px;
+    padding:1px;
+}
+
+
+@media (max-width: 990px){
+    .ntitle{
+        display:none;
+    }
+}
+
+
+.cook{
+order:1;
+align-self:center;
+margin-top:8px; 
+font-size: 13px;
+margin-left:10px;
+
+}
+
+.cook a{
+    color:#337ab7;
+}
+
+.cook p{
+    color:#d3d1d1;
+}
+.setings{
+    order:2;
+    align-self:center;
+   padding-left:20px;
+    border-left:1px solid rgb(197, 197, 197);
+}
+.d-settings{
+   margin-right:20px;
+   
+}
+
+.d-login{
+    margin-right:20px;
+   
+}
+
+.d-adduser{
+    margin-right:20px;
+    
+}

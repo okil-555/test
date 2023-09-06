@@ -1,0 +1,33 @@
+.inl{
+    position: fixed; 
+   width: 45px;
+   left: 90%;
+   bottom: 40px;
+   height: 45px;
+    
+   z-index: 1;
+   cursor: pointer;
+   color:#2d6b9f;
+   border:1px solid #2d6b9f;
+    background-color: #ececec;
+}
+
+
+
+@media (max-width: 640px) {
+    .inl{
+        position: fixed; 
+       width: 45px;
+       left: 85%;
+       bottom: 20px;
+       height: 45px;
+        
+       z-index: 1;
+       cursor: pointer;
+       color:#2d6b9f;
+       border:1px solid #2d6b9f;
+        background-color: #ececec;
+    }
+
+
+}

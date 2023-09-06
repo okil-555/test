@@ -1,0 +1,1169 @@
+.footer{
+    width:100%;
+    height:auto;
+    background-color: #2d6b9f;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */  
+    
+}
+.footer_top{
+    max-width:1280px;
+    height:300px;
+    margin:0 auto;
+    padding:0px;
+   
+    }
+    .footer_top .left{
+        width:50%;
+    
+        
+        position:relative;
+         padding-top:40px;
+         padding-left:40px;
+    }
+
+   
+
+
+
+    .footer_top .left h1{  
+     color: #ffffff;
+    font-size: 16px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+     float:left;
+    text-transform: uppercase; 
+    }
+
+    .faicon{
+        color: rgb(255, 255, 255);
+        
+        font-size: 13px;
+       margin-top:-3px;
+       padding:0px;
+    }
+    .footer_top .left .fapaper{
+        color:   #FFDC98;
+        color: rgb(246, 136, 33);
+        font-size: 16px;
+        margin-left:20px; 
+        margin-top:8px;
+    }
+.footer_line{
+    
+    height:100px;
+    position: relative;
+  border-top:1px solid #c3d6eb;
+  max-width: 1280px;
+  margin:0 auto;
+    color: #2D2D2D;
+    
+  
+}
+ 
+.footer_top .left table{
+     
+    width:100%;
+    margin-top:40px;
+    margin-left:10px;
+    
+}
+
+.footer_top .left table tr td{
+  
+    padding:2px;
+     
+}
+
+.footer .left table tr td.textfooter {
+    line-height: 1em;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 13px;
+    
+   color:white;
+   padding:5px;
+}
+ 
+
+ 
+.footer_top .left .amail{
+    color: rgb(246, 136, 33); 
+    
+}
+
+
+.footer_top .right{
+    width:50%;
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding:15px;
+}
+
+
+.footer_top .right .sotset{
+  
+  height:auto;;
+  margin-top:180px;
+}
+
+.footer_top .right .sotset ul {
+    list-style: none;
+    display: inline-flex;
+    text-decoration: none;
+    height:auto;
+    transition: all 0.1s ease;
+    border-radius: 0px;
+  
+}
+
+.footer_top .right .sotset ul li{
+border:2px white solid;
+padding:15px;
+padding-top:13px;
+border-radius: 50%;
+margin:5px;
+width:auto;
+padding-left:20px;
+padding-right:20px;
+cursor: pointer;
+transition: all 1s ease;
+}
+
+.footer_top .right .sotset ul li .facebook, .instagram, .google, .viber, .whatsapp{
+color:white;
+font-size: 14px;
+cursor: pointer;
+transition: all 1s ease;
+}
+
+
+.footer_top .right .sotset ul li.facebook:hover   {
+     
+    box-shadow: 0 0 15px #aeccf3;
+    border-radius: 15%;
+    transition: all 1s ease;
+  }
+
+  .footer_top .right .sotset ul li.facebook:hover .facebook  {
+        
+     transition: all 0.5s ease;
+      
+  }
+
+  .footer_top .right .sotset ul li.whatsapp:hover   {
+    
+    box-shadow: 0 0 15px #aeccf3;
+    border:3px #094b03 solid;
+    transition: all 0.5s ease;
+  }
+
+  .footer_top .right .sotset ul li.whatsapp:hover .whatsapp {
+        color: #094b03;
+     transition: all 0.5s ease;
+     
+  }
+ 
+  .footer_top .right .sotset ul li.instagram:hover   {
+    
+    box-shadow: 0 0 15px #aeccf3;
+    border:3px #5e0c17 solid;
+    transition: all 0.5s ease;
+  }
+
+  .footer_top .right .sotset ul li.instagram:hover .instagram {
+        color: #5e0c17;
+     transition: all 0.5s ease;
+     
+  }
+
+  .footer_top .right .sotset ul li.viber:hover   {
+    
+    box-shadow: 0 0 15px #aeccf3;
+    border:3px #020e77 solid;
+    transition: all 0.5s ease;
+  }
+
+  .footer_top .right .sotset ul li.viber:hover .viber {
+        color: #020e77;
+     transition: all 0.5s ease;
+     
+  }
+  
+  .footer_top .right .sotset ul li.google:hover   {
+    
+    box-shadow: 0 0 15px #aeccf3;
+    border:3px #dddddf solid;
+    transition: all 0.5s ease;
+  }
+
+  .footer_top .right .sotset ul li.google:hover .google {
+        color: #dddddf;
+     transition: all 0.5s ease;
+     
+  }
+
+
+   .wrapper_footer ul li:hover.twitter {
+    border: 5px solid #00aced;
+    box-shadow: 0 0 15px #00aced;
+    transition: all 0.5s ease;
+  }
+ 
+  .wrapper_footer ul li:hover .fa-twitter {
+    color: #00aced;
+    text-shadow: 0 0 15px #00aced;
+    transition: all 0.5s ease;
+  }
+ 
+   .wrapper_footer ul li:hover.instagram {
+    border: 5px solid #bc2a8d;
+    box-shadow: 0 0 15px #bc2a8d;
+    transition: all 0.5s ease;
+  }
+ 
+  .wrapper_footer ul li:hover .fa-instagram {
+    color: #bc2a8d;
+    text-shadow: 0 0 15px #bc2a8d;
+    transition: all 0.5s ease;
+  }
+ 
+  .wrapper_footer ul li:hover.google {
+    border: 5px solid #dd4b39;
+    box-shadow: 0 0 15px #dd4b39;
+    transition: all 0.5s ease;
+  }
+ 
+  .wrapper_footer ul li:hover .fa-google {
+    color: #dd4b39;
+    text-shadow: 0 0 15px #dd4b39;
+    transition: all 0.5s ease;
+  }
+ 
+   .wrapper_footer ul li:hover.whatsapp {
+    border: 5px solid #4dc247;
+    box-shadow: 0 0 15px #4dc247;
+    transition: all 0.5s ease;
+  }
+ 
+  .wrapper_footer ul li:hover .fa-whatsapp {
+    color: #4dc247;
+    text-shadow: 0 0 15px #4dc247;
+    transition: all 0.5s ease;
+  }
+  /********************/
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+
+
+/******************************    990  ******************************************************/
+
+@media (max-width: 1024px) {
+  .footer_top{
+    max-width:1024px;
+}
+}
+@media (max-width: 990px) {
+    .footer_top .left h1{  
+        color: #ffffff;
+       font-size: 15px;
+       font-family: 'Oswald', sans-serif;
+        float:left;
+       text-transform: uppercase;
+       }
+
+ 
+  .footer_top{
+    max-width:1024px;
+}}
+
+
+
+ 
+
+
+
+
+@media (max-width: 870px) {
+  .footer{
+    width:100%;
+    height:auto;
+    background-color: #2d6b9f;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */  
+    
+}
+
+
+
+
+.footer_top{
+    max-width:870px;
+    height:350px;
+    margin:0 auto;
+    padding:0px;
+    
+   
+   
+    }
+    .footer_top .left{
+        float:left;
+         padding-top:30px;
+         padding-left:30px;
+        width:100%;
+      
+         height:auto;
+    }
+
+   
+
+
+
+    .footer_top .left h1{  
+     color: #ffffff;
+    font-size: 15px;
+    font-family: 'Oswald', sans-serif;
+     float:left;
+    text-transform: uppercase;
+    }
+
+    .faicon{
+        color: rgb(255, 255, 255);
+        
+        font-size: 12px;
+       margin-top:-3px;
+       padding:0px; 
+    }
+    .footer_top .left .fapaper{
+        color:   #FFDC98;
+        color: rgb(246, 136, 33);
+        font-size: 15px;
+        margin-left:20px; 
+        margin-top:-8px;
+    }
+.footer_line{
+    
+    height:80px;
+    position: relative;
+  border-top:1px solid #c3d6eb;
+  
+    color: #2D2D2D;
+    
+ 
+}
+ 
+.footer_top .left table{
+   
+    width:100%;
+    margin-top:40px;
+    margin-left:0px;
+   
+}
+
+.footer_top .left table tr td{
+     
+    padding:0px;
+     
+}
+
+.footer .left table tr td.textfooter {
+    line-height: 1em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    
+   color:white;
+   padding:5px;
+}
+ 
+
+ 
+.footer_top .left .amail{
+    color: rgb(246, 136, 33); 
+    
+}
+
+
+.footer_top .right{
+   
+  width:100%;
+   padding:0px;
+   margin:0px;
+      float:left;
+      height:70px;
+      padding-top:5px;
+}
+
+
+.footer_top .right .sotset{
+   margin-right:10px;
+
+   
+  padding:0px;
+  height:70px;
+  display: block;
+}
+
+.footer_top .right .sotset ul {
+    list-style: none;
+    display: inline-flex;
+    text-decoration: none;
+    height:auto;
+    transition: all 0.1s ease;
+    border-radius: 0px;
+  
+}
+
+.footer_top .right .sotset ul li{
+border:2px white solid;
+padding:15px;
+padding-top:13px;
+border-radius: 50%;
+margin:5px;
+width:auto;
+padding-left:20px;
+padding-right:20px;
+cursor: pointer;
+transition: all 1s ease;
+}
+
+.footer_top .right .sotset ul li .facebook, .instagram, .google, .viber, .whatsapp{
+color:white;
+font-size: 14px;
+cursor: pointer;
+transition: all 1s ease;
+}
+
+
+.footer_top .right .sotset ul li.facebook:hover   {
+     
+    box-shadow: 0 0 15px #aeccf3;
+    border-radius: 15%;
+    transition: all 1s ease;
+  }
+
+  .footer_top .right .sotset ul li.facebook:hover .facebook  {
+        
+     transition: all 0.5s ease;
+      
+  }
+
+  .footer_top .right .sotset ul li.whatsapp:hover   {
+    
+    box-shadow: 0 0 15px #aeccf3;
+    border:3px #094b03 solid;
+    transition: all 0.5s ease;
+  }
+
+  .footer_top .right .sotset ul li.whatsapp:hover .whatsapp {
+        color: #094b03;
+     transition: all 0.5s ease;
+     
+  }
+ 
+  .footer_top .right .sotset ul li.instagram:hover   {
+    
+    box-shadow: 0 0 15px #aeccf3;
+    border:3px #5e0c17 solid;
+    transition: all 0.5s ease;
+  }
+
+  .footer_top .right .sotset ul li.instagram:hover .instagram {
+        color: #5e0c17;
+     transition: all 0.5s ease;
+     
+  }
+
+  .footer_top .right .sotset ul li.viber:hover   {
+    
+    box-shadow: 0 0 15px #aeccf3;
+    border:3px #020e77 solid;
+    transition: all 0.5s ease;
+  }
+
+  .footer_top .right .sotset ul li.viber:hover .viber {
+        color: #020e77;
+     transition: all 0.5s ease;
+     
+  }
+  
+  .footer_top .right .sotset ul li.google:hover   {
+    
+    box-shadow: 0 0 15px #aeccf3;
+    border:3px #dddddf solid;
+    transition: all 0.5s ease;
+  }
+
+  .footer_top .right .sotset ul li.google:hover .google {
+        color: #dddddf;
+     transition: all 0.5s ease;
+     
+  }
+
+
+   .wrapper_footer ul li:hover.twitter {
+    border: 5px solid #00aced;
+    box-shadow: 0 0 15px #00aced;
+    transition: all 0.5s ease;
+  }
+ 
+  .wrapper_footer ul li:hover .fa-twitter {
+    color: #00aced;
+    text-shadow: 0 0 15px #00aced;
+    transition: all 0.5s ease;
+  }
+ 
+   .wrapper_footer ul li:hover.instagram {
+    border: 5px solid #bc2a8d;
+    box-shadow: 0 0 15px #bc2a8d;
+    transition: all 0.5s ease;
+  }
+ 
+  .wrapper_footer ul li:hover .fa-instagram {
+    color: #bc2a8d;
+    text-shadow: 0 0 15px #bc2a8d;
+    transition: all 0.5s ease;
+  }
+ 
+  .wrapper_footer ul li:hover.google {
+    border: 5px solid #dd4b39;
+    box-shadow: 0 0 15px #dd4b39;
+    transition: all 0.5s ease;
+  }
+ 
+  .wrapper_footer ul li:hover .fa-google {
+    color: #dd4b39;
+    text-shadow: 0 0 15px #dd4b39;
+    transition: all 0.5s ease;
+  }
+ 
+   .wrapper_footer ul li:hover.whatsapp {
+    border: 5px solid #4dc247;
+    box-shadow: 0 0 15px #4dc247;
+    transition: all 0.5s ease;
+  }
+ 
+  .wrapper_footer ul li:hover .fa-whatsapp {
+    color: #4dc247;
+    text-shadow: 0 0 15px #4dc247;
+    transition: all 0.5s ease;
+  }
+  /********************/
+ 
+.footer .footer_line ul.iconline{
+list-style: none;
+display: flex;
+text-decoration: none;
+height:auto;
+transition: all 0.1s ease;
+border-radius: 0px;
+
+}
+.footer .footer_line ul.iconline li .react{
+  margin:5px;
+  color:white;
+  font-size: 25px;
+}
+}
+
+
+
+@media (max-width: 768px) {
+.footer .left table tr td.textfooter {
+  line-height: 1em;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  
+ color:white;
+ padding:5px;
+}
+
+
+
+
+.footer_top .right{
+  display: block;
+  
+  width:100%;
+   padding:0px;
+   margin:0px;
+      
+      height:70px;
+      padding-top:10px;
+}
+
+
+.footer_top .right .sotset{
+   border:none;
+   margin:0px;
+  padding:0px;
+  height:70px;
+  display: block;
+  margin-top:20px;
+}
+
+.footer_top .right .sotset ul {
+    list-style: none;
+    display: inline-flex;
+    text-decoration: none;
+    height:auto;
+    transition: all 0.1s ease;
+    border-radius: 0px;
+  padding:0px;
+  margin-left:25px;
+}
+
+.footer_top .right .sotset ul li{
+border:2px white solid;
+padding-top:8px;
+border-radius: 50%;
+margin:5px;
+width:auto;
+padding-bottom:6px;
+padding-left:15px;
+padding-right:15px;
+cursor: pointer;
+transition: all 1s ease;
+}
+
+.footer_top .right .sotset ul li .facebook, .instagram, .google, .viber, .whatsapp{
+color:white;
+font-size: 12px;
+cursor: pointer;
+transition: all 1s ease;
+}
+
+
+.footer_top .right .sotset ul li.facebook:hover   {
+     
+    box-shadow: none;
+    border-radius: 15%;
+    transition: all 1s ease;
+  }
+
+  .footer_top .right .sotset ul li.facebook:hover .facebook  {
+        
+     transition: all 0.5s ease;
+      
+  }
+
+  .footer_top .right .sotset ul li.whatsapp:hover   {
+    
+    box-shadow: 0 0 15px #aeccf3;
+    border:2px #094b03 solid;
+    transition: all 0.5s ease;
+  }
+
+  .footer_top .right .sotset ul li.whatsapp:hover .whatsapp {
+        color: #094b03;
+     transition: all 0.5s ease;
+     
+  }
+ 
+  .footer_top .right .sotset ul li.instagram:hover   {
+    
+    box-shadow: 0 0 15px #aeccf3;
+    border:2px #5e0c17 solid;
+    transition: all 0.5s ease;
+  }
+
+  .footer_top .right .sotset ul li.instagram:hover .instagram {
+        color: #5e0c17;
+     transition: all 0.5s ease;
+     
+  }
+
+  .footer_top .right .sotset ul li.viber:hover   {
+    
+    box-shadow: 0 0 15px #aeccf3;
+    border:2px #020e77 solid;
+    transition: all 0.5s ease;
+  }
+
+  .footer_top .right .sotset ul li.viber:hover .viber {
+        color: #020e77;
+     transition: all 0.5s ease;
+     
+  }
+  
+  .footer_top .right .sotset ul li.google:hover   {
+    
+    box-shadow: 0 0 15px #aeccf3;
+    border:2px #dddddf solid;
+    transition: all 0.5s ease;
+  }
+
+  .footer_top .right .sotset ul li.google:hover .google {
+        color: #dddddf;
+     transition: all 0.5s ease;
+     
+  }
+  
+
+
+
+}
+
+
+
+
+@media (max-width: 640px) {
+  .footer{
+    width:100%;
+    height:auto;
+    background-color: #2d6b9f;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */  
+    
+}
+
+
+
+
+.footer_top{
+    max-width:640px;
+    height:300px;
+    margin:0 auto;
+    padding:0px;
+     
+    padding:0px;
+   
+    }
+    .footer_top .left{
+        float:left;
+         padding-top:30px;
+         padding-left:30px;
+        width:100%;
+        
+        margin:0px;
+    }
+
+   
+
+
+
+    .footer_top .left h1{  
+     color: #ffffff;
+    font-size: 14px;
+    font-family: 'Oswald', sans-serif;
+     float:left;
+    text-transform: uppercase;
+    }
+
+    .faicon{
+        color: rgb(255, 255, 255);
+        
+        font-size: 12px;
+       margin-top:-3px;
+       padding:0px;
+    }
+    .footer_top .left .fapaper{
+        color:   #FFDC98;
+        color: rgb(246, 136, 33);
+        font-size: 15px;
+        margin-left:20px; 
+        margin-top:8px;
+    }
+ 
+ 
+.footer_top .left table{
+   
+    width:100%;
+    margin-top:20px;
+    
+}
+
+.footer_top .left table tr td{
+     
+    padding:0px;
+     
+}
+
+.footer .left table tr td.textfooter {
+    line-height: 1em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    
+   color:white;
+   padding:5px;
+}
+ 
+
+ 
+.footer_top .left .amail{
+    color: rgb(246, 136, 33); 
+    
+}
+
+
+.footer_top .right{
+  display: block;
+  
+  width:100%;
+   padding:0px;
+   margin:0px;
+      
+      height:60px;
+      padding-top:0px;
+}
+
+.footer_top .right .sotset{
+  border:none;
+  margin:0px;
+ padding:0px;
+ height:70px;
+ display: block;
+}
+
+.footer_top .right .sotset ul {
+   list-style: none;
+   display: inline-flex;
+   text-decoration: none;
+   height:auto;
+   transition: all 0.1s ease;
+   border-radius: 0px;
+ padding:0px;
+ margin-left:15px;
+}
+
+.footer_top .right .sotset ul li{
+border:2px white solid;
+padding-top:8px;
+border-radius: 50%;
+margin:5px;
+width:auto;
+padding-bottom:6px;
+padding-left:15px;
+padding-right:15px;
+cursor: pointer;
+transition: all 1s ease;
+}
+
+.footer_top .right .sotset ul li .facebook, .instagram, .google, .viber, .whatsapp{
+color:white;
+font-size: 12px;
+cursor: pointer;
+transition: all 1s ease;
+}
+
+
+.footer_top .right .sotset ul li.facebook:hover   {
+    
+   box-shadow: none;
+   border-radius: 15%;
+   transition: all 1s ease;
+ }
+
+ .footer_top .right .sotset ul li.facebook:hover .facebook  {
+       
+    transition: all 0.5s ease;
+     
+ }
+
+ .footer_top .right .sotset ul li.whatsapp:hover   {
+   
+   box-shadow: 0 0 15px #aeccf3;
+   border:2px #094b03 solid;
+   transition: all 0.5s ease;
+ }
+
+ .footer_top .right .sotset ul li.whatsapp:hover .whatsapp {
+       color: #094b03;
+    transition: all 0.5s ease;
+    
+ }
+
+ .footer_top .right .sotset ul li.instagram:hover   {
+   
+   box-shadow: 0 0 15px #aeccf3;
+   border:2px #5e0c17 solid;
+   transition: all 0.5s ease;
+ }
+
+ .footer_top .right .sotset ul li.instagram:hover .instagram {
+       color: #5e0c17;
+    transition: all 0.5s ease;
+    
+ }
+
+ .footer_top .right .sotset ul li.viber:hover   {
+   
+   box-shadow: 0 0 15px #aeccf3;
+   border:2px #020e77 solid;
+   transition: all 0.5s ease;
+ }
+
+ .footer_top .right .sotset ul li.viber:hover .viber {
+       color: #020e77;
+    transition: all 0.5s ease;
+    
+ }
+ 
+ .footer_top .right .sotset ul li.google:hover   {
+   
+   box-shadow: 0 0 15px #aeccf3;
+   border:2px #dddddf solid;
+   transition: all 0.5s ease;
+ }
+
+ .footer_top .right .sotset ul li.google:hover .google {
+       color: #dddddf;
+    transition: all 0.5s ease;
+    
+ }
+ 
+ /********************/
+ 
+}
+
+
+@media (max-width: 480px) {
+  .footer{
+    width:100%;
+    height:auto;
+    background-color: #2d6b9f;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */  
+    
+}
+
+
+
+
+.footer_top{
+    max-width:480px;
+    height:300px;
+    margin:0 auto;
+    padding:0px;
+   
+    padding:0px;
+   
+    }
+    .footer_top .left{
+        float:left;
+         padding-top:25px;
+         padding-left:25px;
+        width:100%;
+         
+    }
+
+   
+
+
+
+    .footer_top .left h1{  
+     color: #ffffff;
+    font-size: 14px;
+    font-family: 'Oswald', sans-serif;
+     float:left;
+    text-transform: uppercase;
+    }
+
+    .faicon{
+        color: rgb(255, 255, 255);
+        
+        font-size: 12px;
+       margin-top:-3px;
+       padding:0px;
+    }
+    .footer_top .left .fapaper{
+        color:   #FFDC98;
+        color: rgb(246, 136, 33);
+        font-size: 15px;
+        margin-left:20px; 
+        margin-top:8px;
+    }
+ 
+ 
+.footer_top .left table{
+   
+    width:100%;
+    margin-top:20px;
+    
+}
+
+.footer_top .left table tr td{
+     
+    padding:0px;
+     
+}
+
+.footer .left table tr td.textfooter {
+    line-height: 1em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    
+   color:white;
+   padding:5px;
+}
+ 
+
+ 
+.footer_top .left .amail{
+    color: rgb(246, 136, 33); 
+    
+}
+
+
+.footer_top .right{
+  display: block;
+  
+  width:100%;
+   padding:0px;
+   margin:0px;
+      
+      height:70px;
+      padding-top:10px;
+}
+
+
+.footer_top .right .sotset{
+   border:none;
+   margin:0px;
+  padding:0px;
+  height:70px;
+  display: block;
+}
+
+.footer_top .right .sotset ul {
+    list-style: none;
+    display: inline-flex;
+    text-decoration: none;
+    height:auto;
+    transition: all 0.1s ease;
+    border-radius: 0px;
+  padding:0px;
+  margin-left:15px;
+}
+
+.footer_top .right .sotset ul li{
+border:2px white solid;
+padding-top:8px;
+border-radius: 50%;
+margin:5px;
+width:auto;
+padding-bottom:6px;
+padding-left:15px;
+padding-right:15px;
+cursor: pointer;
+transition: all 1s ease;
+}
+
+.footer_top .right .sotset ul li .facebook, .instagram, .google, .viber, .whatsapp{
+color:white;
+font-size: 12px;
+cursor: pointer;
+transition: all 1s ease;
+}
+
+
+.footer_top .right .sotset ul li.facebook:hover   {
+     
+    box-shadow: none;
+    border-radius: 15%;
+    transition: all 1s ease;
+  }
+
+  .footer_top .right .sotset ul li.facebook:hover .facebook  {
+        
+     transition: all 0.5s ease;
+      
+  }
+
+  .footer_top .right .sotset ul li.whatsapp:hover   {
+    
+    box-shadow: 0 0 15px #aeccf3;
+    border:2px #094b03 solid;
+    transition: all 0.5s ease;
+  }
+
+  .footer_top .right .sotset ul li.whatsapp:hover .whatsapp {
+        color: #094b03;
+     transition: all 0.5s ease;
+     
+  }
+ 
+  .footer_top .right .sotset ul li.instagram:hover   {
+    
+    box-shadow: 0 0 15px #aeccf3;
+    border:2px #5e0c17 solid;
+    transition: all 0.5s ease;
+  }
+
+  .footer_top .right .sotset ul li.instagram:hover .instagram {
+        color: #5e0c17;
+     transition: all 0.5s ease;
+     
+  }
+
+  .footer_top .right .sotset ul li.viber:hover   {
+    
+    box-shadow: 0 0 15px #aeccf3;
+    border:2px #020e77 solid;
+    transition: all 0.5s ease;
+  }
+
+  .footer_top .right .sotset ul li.viber:hover .viber {
+        color: #020e77;
+     transition: all 0.5s ease;
+     
+  }
+  
+  .footer_top .right .sotset ul li.google:hover   {
+    
+    box-shadow: 0 0 15px #aeccf3;
+    border:2px #dddddf solid;
+    transition: all 0.5s ease;
+  }
+
+  .footer_top .right .sotset ul li.google:hover .google {
+        color: #dddddf;
+     transition: all 0.5s ease;
+     
+  }
+  
+  /********************/
+ 
+ 
+}
+
+
+
+

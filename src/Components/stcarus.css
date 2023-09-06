@@ -1,0 +1,46 @@
+
+ 
+  
+    .itcar{
+     
+         height:300px;
+     }
+ 
+     
+ 
+
+
+
+@media (max-width: 870px){
+  
+   .itcar{
+    
+        height:350px;
+    }
+
+    
+}
+
+
+
+@media (max-width: 640px){
+  
+    .itcar{
+     
+         height:280px;
+     }
+ 
+     
+ }
+
+
+
+ @media (max-width: 480px){
+  
+    .itcar{
+     
+         height:240px;
+     }
+ 
+     
+ }
